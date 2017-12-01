@@ -1,0 +1,66 @@
+html,body{
+	position: relative;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	font-family:"微软雅黑";
+}
+ul,ol,li,h1,h2,h3,h4,h5,h6{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+.f-normal{
+	font-weight: normal;
+}
+a{
+	margin:0;
+    padding:0;
+    outline: none;]
+    border:none;
+	text-decoration:none;
+	color:#fff;
+}
+.fl{
+	float: left;
+}
+.clear-float{
+	overflow:hidden;
+}
+.fr{
+	float: right;
+}
+.avtive-color{
+	color:#2a99f8 !important;
+}
+
+
+
+
+/*底部导航部分*/
+.bottom-nav{
+	overflow:hidden;
+	position: fixed;
+	background-color:#fff;
+	width:100%;
+	bottom:0px;
+	height:45px;
+	border-top:1px solid #ddd;
+	box-sizing:border-box;
+}
+.bottom-nav ul>li{
+	width:20%;
+	margin-top:5px;
+	text-align: center;
+}
+.bottom-nav .fl>a>img{
+	width:20px;
+	height:20px;
+}
+.bottom-nav .fl>h6{
+	margin:0px;
+	padding:0px;
+	height:14px;
+	font-size:8px;
+	color:#494848;
+}

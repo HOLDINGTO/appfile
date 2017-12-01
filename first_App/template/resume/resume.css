@@ -1,0 +1,74 @@
+.resume{
+	height:100%;
+}
+.head{
+    position:fixed;
+    width:100%;
+	background-image:url(../../images/resume/f3@3x.png);
+	border-radius:0 0 0 70px;
+	z-index: 1;
+}
+.head .set{
+	margin-top:15px;
+	padding-right:15px;
+}
+.head .set>a>img{
+	width:20px;
+	height:20px;
+}
+.head .head-img>img{
+	width:20%;
+	margin-top:10px;
+	margin-bottom:6px;
+	margin-left:50%;
+	transform:translateX(-50%);
+}
+.main .content-list{
+	position:relative;
+	padding-left:5%;
+	margin-left:5%;
+	margin-top:10px;
+	border-bottom:3px solid #d8d8d8;
+}
+.main .first{
+	margin-top:0px;
+	padding-top:102px;
+}
+.main .last{
+	padding-bottom:45px;
+}
+.main .content-list>i{
+	display:block;
+	position: absolute;
+	top:6px;
+	left:2px;
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	background-color: #2a99f8;
+}
+.main .first>i{
+	position: absolute;
+	top:108px;
+	left:2px;
+}
+.main .content-list>h4{
+	font-size:13px;
+	border-bottom:1px solid #d5d5d5;
+	padding-bottom:8px;
+}
+.main .content-list>div{
+	padding:10px 0 10px;
+	
+}
+.main .content-list>div>p{
+	margin:0px;
+	padding:0px;
+	letter-spacing:1px;
+	margin-bottom:3px;
+	font-size:12px;
+}
+.content-list>div>p>span{
+	padding-left:8px;
+	color:#747373;
+}

@@ -1,0 +1,86 @@
+.detail{
+	height:100%;
+	position: relative;
+}
+.top{
+	position:relative;
+	height:50px;
+	background-color:#2a99f8;
+	color:#fff;
+}
+.top>h3{
+	position: absolute;
+	height:100%;
+	line-height: 50px;
+	font-size:16px;
+	width:100%;
+	top:0px;
+	text-align: center;
+
+}
+
+.top a>img{
+    width:10px;
+    height:16px;
+    margin:3px;
+    display: block;
+    position: absolute;
+    top:14px;
+    left:15px;
+}
+.top .infor{
+	color:#fff;
+	font-size:14px;
+	line-height:50px;
+	position: absolute;
+	top:0px;
+	left:32px;
+}
+
+
+
+
+.bottom{
+	position: fixed;
+	width:100%;
+	bottom:0px;
+	height:50px;
+    border-top:1px solid #616161;
+}
+.bottom .voice{
+	width:12%;
+	
+}
+.bottom ul>li>img{
+	width:30px;
+	height:30px;
+	margin:10px 5px;
+}
+.bottom .subj>img{
+	margin:10px 0px;
+}
+.bottom .ipt{
+	width:60%;
+	margin:5px;
+	height:38px;
+	border:1px solid #616161;
+	border-radius:8px;
+	
+}
+.bottom .ipt>input{
+	border:0px;
+	width:calc(100% - 10px);
+	margin:3px auto;
+	padding-left:10px;
+	outline:none;
+	height:30px;
+
+}
+.bottom .brow{
+	width:12%;
+	
+}
+.bottom .subj{
+	width:12%;
+	
+}

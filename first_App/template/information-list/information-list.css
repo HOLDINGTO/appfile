@@ -1,0 +1,99 @@
+.infor-list{
+	position:relative;
+	height:100%;
+}
+.head{
+	position:fixed;
+	width:100%;
+	text-align:center;
+	background-color:#2a99f8;
+}
+.head>h4{
+	line-height: 45px;
+	color:#fff;
+}
+.content .content-list{
+	margin-top:10px;
+}
+.content .content-list:nth-child(1){
+	padding-top:50px;
+	margin-top:0px;
+}
+.content .content-list{
+	position:relative;
+	padding-bottom:5px;
+	border-bottom:1px solid #b0b0b0;
+}
+.content .content-list>div{
+	width:90%;
+	margin-left:10%;
+	height:45px;
+}
+.content .content-list>div>span{
+	display:block;
+	width:15%;
+}
+.content .content-list>div>span>img{
+	width:35px;
+	height:35px;
+	margin-top:5px;
+
+}
+.content-list .text{
+	margin-left:5px;
+}
+.content-list .text .com{
+	font-size:12px;
+	letter-spacing:1px;
+	margin-bottom:5px;
+} 
+.content-list .text .person{
+   font-size:12px;
+   padding-left:10px;
+   color:#494848;
+}
+.content-list .fr{
+	padding-right:15px;
+}
+.content-list .fr>span{
+	font-size:10px;
+}
+.content-list .fr>i>img{
+	position: absolute;
+	width:10px;
+	height:10px;
+	bottom:10px;
+	right:20px;
+}
+
+
+
+
+
+/*底部导航部分*/
+/*.bottom-nav{
+	overflow:hidden;
+	position: fixed;
+	background-color:#fff;
+	width:100%;
+	bottom:0px;
+	height:45px;
+	border-top:1px solid #ddd;
+	box-sizing:border-box;
+}
+.bottom-nav ul>li{
+	width:20%;
+	margin-top:5px;
+	text-align: center;
+}
+.bottom-nav .fl>a>img{
+	width:20px;
+	height:20px;
+}
+.bottom-nav .fl>h6{
+	margin:0px;
+	padding:0px;
+	height:14px;
+	font-size:8px;
+	color:#494848;
+}*/

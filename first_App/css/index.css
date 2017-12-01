@@ -1,0 +1,173 @@
+.index{
+	position: relative;
+	height:100%;
+}
+.head{
+    position: fixed;
+    width:100%;
+	height:50px;
+	background-color:#2a99f8;
+	z-index: 1;
+}
+.head .top .top-left{
+     width:16%;
+     line-height: 50px
+
+}
+.head .top .top-left>h4{
+	font-size:13px;
+	color:#fff;
+	margin-left:5px;
+}
+.head .top .top-left>span>img{
+	width:10px;
+	height:10px;
+	margin-left:3px;
+}
+.head .top-center{
+	width:64%;
+} 
+.head .top-center>div{
+	position: relative;
+    height:40px;
+    margin:5px 0px;
+    border-radius:8px;
+    background-color:#fff;
+}
+.head .top-center>div>.search{
+	display: block;
+	width:16px;
+	height:16px;
+	margin:12px 0 12px 8px;
+	background:url(../images/index/search@3x.png) no-repeat;
+	background-size:100% 100%;
+}
+.head .top-center>div>.ipt{
+    margin:12px 0px 0px 0px;
+    padding-left:10px;
+    outline:none;
+    border:none;
+}
+.head .top-center>div>.scan{
+	position: absolute;
+	right:5px;
+	display: block;
+	width:16px;
+	height:16px;
+	margin:12px 0 12px 0px;
+	background:url(../images/index/scan.png) no-repeat;
+	background-size:100% 100%;
+}
+.head .top-right>span{
+	width:13%;
+	font-size: 13px;
+	line-height: 50px;
+	margin-left:3px;
+	color:#fff;
+}
+
+.banner{
+	position: relative;
+	padding-top:50px;
+	padding-bottom:10px;
+}
+.banner ul{
+	width:300%;
+}
+
+/*menu部分*/
+.menu {
+	position: relative;
+	height:180px;
+	overflow: hidden;
+}
+.menu .swiper-wrapper>li{
+	width:100%;
+	height:100px;
+}
+.banner .swiper-slide>img{
+    width:100%;
+}
+.menu .swiper-wrapper{
+	width:300%;
+}
+.menu .swiper-slide>div>ul>li{
+	position: relative;
+	width:20%;
+	height:70px;
+	margin-left:4%;
+	margin-top:10px;
+}
+.menu .swiper-slide>div>ul>li>img{
+	width:100%;
+	height:100%;
+	border-radius:10px;
+}
+.menu .swiper-pagination{
+	height:10px;
+}
+
+/*.main部分*/
+.main{
+	width:100%;
+	border-top:5px solid #d0cccc;
+}
+.main .main-head{
+	height:;
+}
+.main .main-head>span{
+	font-size:12px;
+	padding:0 15px 0 15px;
+	margin:5px 0 5px 0;
+}
+.main .main-head>.fr{
+	color:#f29d11;
+}
+ .main .content-list{
+    height:60px;
+    margin-top:5px;
+	border-bottom:1px solid #b0b0b0;
+}
+ .main .content-list .icon{
+	width:40px;
+	padding-left:15px;
+}
+ .main .content-list .icon>img{
+	width:30px;
+	height:30px;
+	margin-top:15px;
+
+}
+ .main .content-list .intr{
+	width:52%;
+	margin-left:10px;
+}
+ .main>span{
+	display: block;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom:50px;
+	font-size:12px;
+	color:#727171;
+    margin:0 auto;
+}
+.main .content-list .intr>h5{
+	font-size:15px;
+}
+.main .content-list .intr>p{
+	color:#727171;
+    font-size:12px;
+    margin-top:1px;
+    margin-bottom:0px;
+}
+.main .content-list .intr>p>span{
+	padding-left:15px;
+}
+.main .content-list .remu{
+	width:25%;
+}
+.main .content-list .remu>span{
+	font-size:12px;
+	padding-left:12px;
+	color:#f29d11;
+}

@@ -1,0 +1,155 @@
+.login{
+	position:relative;
+	height:100%;
+}
+.top{
+	position:relative;
+	height:50px;
+	background-color:#2a99f8;
+	color:#fff;
+}
+.top>h3{
+	position: absolute;
+	height:100%;
+	line-height: 50px;
+	font-size:14px;
+	width:100%;
+	top:0px;
+	text-align: center;
+
+}
+
+.top a>img{
+    width:10px;
+    height:16px;
+    margin:3px;
+    display: block;
+    position: absolute;
+    top:14px;
+    left:32px;
+}
+.top .top-cancel{
+	color:#fff;
+	font-size:12px;
+	line-height:50px;
+	position: absolute;
+	top:0px;
+	left:50px;
+}
+.main{
+	width:76%;
+	height:calc(70% - 50px);
+	margin:0 auto;
+	/*background-color: #c5cfd8;*/
+
+}
+.main .main-img{
+	position:relative;
+	width:100%;
+	height:50%;
+}
+.main .main-img>img{
+	position: absolute;
+	display: block;
+	left:30%;
+	bottom:0px;
+	width:40%;
+
+    
+}
+/*输入框部分*/
+.main .info{
+	margin-top:30px;
+}
+.main .info>div{
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 10px;
+	line-height: 40px;
+	border:1px solid #b0b0b0;
+	width:100%;
+	margin-top:10px;
+}
+.main .info>div>input{
+	padding-left:15px;
+	border:none;
+	outline:none;
+	height:40px;
+
+}
+.main .info>div>input::-webkit-input-placeholder{
+  color: #c5c5c5;
+}
+.main .info>div>.use,.pwd{
+	position: absolute;
+	display: block;
+	width:30px;
+	height:30px;
+}
+.main .info>div>.use{
+	position: absolute;
+	margin-top:5px;
+	margin-left: calc(20% - 55px);
+	background: url(../../images/login/i3@3x.png) no-repeat;
+	background-size:30px 30px;
+
+}
+.main .info>div>.pwd{
+	position: absolute;
+	margin-top:5px;
+	margin-left: calc(20% - 55px);
+	background: url(../../images/login/i4@3x.png) no-repeat;
+	background-size:30px 30px;
+}
+
+.main .info .btn{
+   background-color:#2a99f8;
+   color:#fff;
+}
+.main .info .contr{
+	width:100%;
+	height:40px;
+	margin:0px;
+	border:none;
+}
+.main .info .contr>span{
+	display: inline-block;
+	font-size: 12px;
+}
+.link{
+	 position: relative;
+	 width:80%;
+	 margin:0 auto;
+	 margin-top:40px;
+}
+.link .font{
+    height:40px;
+	width:100%;
+	float:left;
+	text-align: center;
+}
+.link .other{
+	margin-top:-12px;
+}
+.link .font>div>span{
+	text-align: center;
+	float:left;
+	margin-left:10px;
+    float:left;
+    
+}
+.link .font>div>span:nth-child(2n-1){
+	display: block;
+	width:25%;
+	border-top:1px solid #494848;
+}
+
+.link .link-icon>ul>li{
+	width:33.3%;
+	float:left;
+}
+.link .link-icon>ul>li>a>img{
+	width:33.3%;
+	margin-left:50%;
+	transform:translateX(-50%);
+}
